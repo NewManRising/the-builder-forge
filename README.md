@@ -34,4 +34,4 @@ Projects appear here as they're built and shipped.
 
 ---
 
-**Started:** 2026 · **Location:** DFW, Texa
+
