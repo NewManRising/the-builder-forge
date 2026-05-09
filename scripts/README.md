@@ -1,3 +1,5 @@
+# scripts
+
 ## Live
 
 Built an API with FastAPI and deployed it on Railway. 
