@@ -8,7 +8,7 @@ Structured around real projects — APIs, ML pipelines, AI-powered tools, and de
 
 ## Current Status
 
-Currently on Phase 00 — Launchpad Setup (Week 0)
+Currently on Phase 01 — Python Foundations (Week 1)
 
 ---
 
