@@ -1,4 +1,4 @@
-# 🔨 The Builder Forge
+# The Builder Forge
 
 **A 40-week full-stack engineering and AI/ML build path.**
 
@@ -33,6 +33,12 @@ Currently on Phase 01 — Python Foundations (Week 1)
 | 03 — Cloud & MLOps | 15–22 | AWS, GCP, ML pipelines, monitoring, security, performance |
 | 04 — Products & SaaS | 23–32 | Payments, auth, multi-tenancy, API design, testing at scale |
 | 05 — Advanced | 33–40 | Kubernetes, IaC, fine-tuning, data pipelines, Solana, capstone |
+
+
+---
+## Resources Used:
+Python Official Docs - https://docs.python.org/3/tutorial/introduction.html
+
 
 ---
 
