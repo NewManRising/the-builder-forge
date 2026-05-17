@@ -33,3 +33,18 @@ print(f"Uppercase String: {upper}")
 print(f"Replaced String: {replace}")
 print(f"Count of 'i': {count}")
 print(f"Contains 'build': {contains_word}")
+
+
+a = 17
+b = 5
+print(f"Addition: {a} + {b} = {a + b}")
+print(f"Subtraction: {a} - {b} = {a - b}")
+print(f"Multiplkication: {a} * {b} = {a * b}")
+print(f"Division: {a} / {b} = {a / b}")
+print(f"Floor Division: {a} // {b} = {a // b}")
+print(f"Modulo: {a} % {b} = {a % b}")
+print(f"Power: {a} ** {b} = {a ** b}")
+
+
+print(type(a / b))
+print(type(a // b))
