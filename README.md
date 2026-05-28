@@ -40,6 +40,7 @@ Currently on Phase 01 — Python Foundations (Week 1)
 Python Official Docs - https://docs.python.org/3/tutorial/introduction.html
 Looping Techniques - https://docs.python.org/3/tutorial/datastructures.html#tut-loopidioms
 Control Flow - for, elif, else, range(), continue, break - https://docs.python.org/3/tutorial/controlflow.html
+Defining Functions - https://docs.python.org/3/tutorial/controlflow.html#defining-functions
 
 
 ---
