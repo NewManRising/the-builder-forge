@@ -1,3 +1,5 @@
+
+
 score = int(input("Enter A Score between 0 and 100: "))
 print(f"Score: {score}")
 
@@ -22,3 +24,22 @@ for i, v in enumerate(skills, 1):
 for n in range(1, 21):
     if n % 2 == 0:
         print(f"{n} is even")
+
+
+secret = 7
+
+while True:
+    guess = int(input('Guess a Number Between 1 and 10: '))
+    if guess == secret:
+        print("Correct! You got it.")
+        break
+    elif guess < secret:
+        print("Too low! Please Try Again.")
+    else:
+        print("Too high! Please Try Again.")
+
+
+for n in range(1, 11):
+    if n % 3 == 0:
+        continue
+    print(n)
