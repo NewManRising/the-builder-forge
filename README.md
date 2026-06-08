@@ -2,7 +2,7 @@
 
 **A 40-week full-stack engineering and AI/ML build path.**
 
-Structured around real projects — APIs, ML pipelines, AI-powered tools, and deployed applications. Each phase covers a core area of the stack, with topics broken into weekly focus areas and daily builds.
+Structured around real projects such as APIs, ML pipelines, AI-powered tools, and deployed applications. Each phase covers a core area of the stack, with topics broken into weekly focus areas and daily builds.
 
 ---
 
@@ -37,9 +37,14 @@ Currently on Phase 01 — Python Foundations (Week 1)
 
 ---
 ## Resources Used:
+
+1) Python:
 Python Official Docs - https://docs.python.org/3/tutorial/introduction.html
+
 Looping Techniques - https://docs.python.org/3/tutorial/datastructures.html#tut-loopidioms
+
 Control Flow - for, elif, else, range(), continue, break - https://docs.python.org/3/tutorial/controlflow.html
+
 Defining Functions - https://docs.python.org/3/tutorial/controlflow.html#defining-functions
 
 
