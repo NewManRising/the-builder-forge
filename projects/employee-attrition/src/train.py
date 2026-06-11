@@ -17,12 +17,12 @@ def train_models():
     X_train, X_test, y_train, y_test = prepare_features()
 
     models = {
-        'logistic_regression': Pipeline([
+        'Logistic_Regression': Pipeline([
             ('scaler', StandardScaler()),
             ('model', LogisticRegression(max_iter=1000, random_state=42))
         ]),
-        'random_forest': RandomForestClassifier(random_state=42),
-        'gradient_boosting': GradientBoostingClassifier(random_state=42)
+        'Random_Forest': RandomForestClassifier(random_state=42),
+        'Gradient_Boosting': GradientBoostingClassifier(random_state=42)
     }
 
     for name, model in models.items():
