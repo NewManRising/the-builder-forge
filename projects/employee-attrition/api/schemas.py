@@ -34,6 +34,6 @@ class Employee(BaseModel):
     YearsWithCurrManager: int
 
 
-class Attrition(BaseModel):
+class PredictionResponse(BaseModel):
     Probability: float
     Risk_Zone: str  # Low, Medium, High

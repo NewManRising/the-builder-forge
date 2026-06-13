@@ -1,5 +1,6 @@
 import joblib
 import pandas as pd
+from pathlib import Path
 from settings import settings
 from fastapi import FastAPI, HTTPException
 from schemas import Employee, PredictionResponse
