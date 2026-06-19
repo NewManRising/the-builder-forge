@@ -1,0 +1,59 @@
+
+--- Online Retail Sales Analysis ---
+
+Date: June 18, 2026
+Dataset: UCI Online Retail II (Dec 2009 – Dec 2011)
+Records Analyzed: 1,028,761
+
+
+
+--- Findings ---
+Highest Revenue Country (Outside UK): EIRE (£609,953.78)
+Lowest Revenue Country (Outside UK): Nigeria (£-6.66)
+
+Top Product By Revenue: REGENCY CAKESTAND 3 TIER (£314,045.02)
+Top Product By Quantity Sold: WORLD WAR 2 GLIDERS ASSTD DESIGNS (104,546)
+
+Peak Sales Hour: 12:00
+Slowest Sales Hour: 6:00
+
+
+The sales volume by hour of day follows a normal distribution.
+Peak sales volume is around 12:00 pm and the slowest sales volume is in the early morning hours.
+Since values are negative during the early morning hours, it suggests these might be cancellations or returns.
+
+
+
+--- Summary Statistics ---
+Total Revenue (Dec 2009 – Dec 2011): £20,476,634.02
+Mean Revenue: £20.32
+Median Revenue: £10.08
+Standard Deviation: £205.72
+
+Total Units Sold (Dec 2009 – Dec 2011): 11,205,149
+Mean Quantity: 11.12
+Median Quantity: 4.00
+Standard Deviation: 128.47
+
+
+The statistics for revenue and units sold follow a right skewed distribution. 
+The gaps between mean and median show that large purchases are driving the mean higher than the median.
+The standard deviations of both are also quite large. 
+
+While most purchases are small in value, a few large purchases are significantly impacting the overall statistics.
+The data suggests that these larger purchases are bulk orders from wholesale customers which skews the overall distribution.
+
+
+--- Cancellations ---
+Cancelled Transactions: 19,104
+Revenue Impact of Cancellations: £-1,462,050.61
+
+
+
+--- Actionable Insights ---
+- Focus marketing outside the UK to target the top 10 international countries with highest revenue.
+- Countries with very low or negative revenue, consider removing them from your marketing efforts.
+- Ensure highest revenue and volume products have strong inventory, especially during peak hours and peak months. 
+- Investigate cancellation patterns to reduce revenue loss.
+
+
