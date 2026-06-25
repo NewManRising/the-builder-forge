@@ -1,0 +1,42 @@
+
+Date: June 24, 2026
+Dataset: HMEQ Home Equity Loan Default Dataset
+Records Analyzed: 5,960
+---------------------------------------------------------------------------------------------------------
+
+** EDA FINDINGS **
+
+
+1) CLASS DISTRIBUTION
+
+The dataset is imbalanced with roughly 80% non-default and 20% default cases.
+Accuracy alone is not a reliable metric here. Precision, recall, and AUC-ROC
+will be used for evaluation.
+
+
+2) FEATURE DISTRIBUTIONS
+
+Most numeric features are right-skewed with high-value outliers. DEROG and
+DELINQ are zero-inflated. Most applicants have clean credit histories, but
+elevated values in these columns are likely strong default indicators.
+
+
+3) CORRELATIONS
+
+MORTDUE and VALUE have the strongest correlation. This is expected since larger
+properties carry larger mortgages. LOAN and CLNO also show moderate correlation.
+No features were dropped as a result.
+
+
+4) MISSING DATA
+
+Missing values were imputed instead of dropped to preserve dataset size. DEBTINC
+had the highest missing rate at around 21%. Numeric features were imputed with
+the median and categorical features with the most frequent value.
+
+
+5) CATEGORICAL FEATURES
+
+Most loan requests are for debt consolidation. Home improvement is the secondary
+reason. The most common job categories are Other and Professional.
+
