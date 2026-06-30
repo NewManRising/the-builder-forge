@@ -38,15 +38,21 @@ Currently on Phase 01 — Python Foundations (Week 1)
 ---
 ## Resources Used:
 
-1) Python:
-Python Official Docs - https://docs.python.org/3/tutorial/introduction.html
+### Python:
+1) Python Official Docs - https://docs.python.org/3/tutorial/introduction.html
 
-Looping Techniques - https://docs.python.org/3/tutorial/datastructures.html#tut-loopidioms
+2) Looping Techniques - https://docs.python.org/3/tutorial/datastructures.html#tut-loopidioms
 
-Control Flow - for, elif, else, range(), continue, break - https://docs.python.org/3/tutorial/controlflow.html
+3) Control Flow - for, elif, else, range(), continue, break - https://docs.python.org/3/tutorial/controlflow.html
 
-Defining Functions - https://docs.python.org/3/tutorial/controlflow.html#defining-functions
+4) Defining Functions - https://docs.python.org/3/tutorial/controlflow.html#defining-functions
 
+### LLMs and Langchain
+1) Build an LLM app using Langchain: https://docs.streamlit.io/develop/tutorials/chat-and-llm-apps/llm-quickstart
+
+
+### Streamlit
+1) The Data Professor's Streamlit Playlist: https://www.youtube.com/playlist?list=PLtqF5YXg7GLkn2FNYA20y4D3DZKotdtmo
 
 ---
 
