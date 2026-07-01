@@ -32,3 +32,62 @@ tone = st.selectbox("Tone", ["Professional", "Casual",
                     "Funny", "Inspirational", "Urgent", "Minimalist"])
 platform = st.selectbox(
     "Platform", ["Facebook", "Instagram", "Email", "LinkedIn", "Google Search Ad"])
+
+
+# Creating The Function
+def generate_ad(product, audience, features, discount, tone, platform):
+    prompt = f"""You are the world's best marketing copywriter.
+
+Generate a {tone.lower()} ad for the following product or service for {audience}.
+
+Product / Service: {product}
+Key Features: {features}
+Discount: {discount if discount else 'None'}
+Platform: {platform}
+
+
+Write exactly 3 ad variants using the AIDA method. Each variant must follow this structure:
+
+VARIANT 1:
+HEADLINE:
+BODY:
+CTA:
+
+VARIANT 2:
+HEADLINE:
+BODY:
+CTA:
+
+VARIANT 3:
+HEADLINE:
+BODY:
+CTA:
+
+Keep each variant concise and appropriate for {platform}. No placeholders, no extra commentary."""
+
+    response = client.messages.create(
+        model="claude-haiku-4-5",
+        max_tokens=1000,
+        messages=[{"role": "user", "content": prompt}]
+
+    )
+    return response.content[0].text
+
+
+if st.button("Generate", type="primary"):
+    if not product or not audience or not features:
+        st.warning("Please fill in all required fields.")
+    else:
+        with st.spinner("Please Be Patient, Generating Your Ad... "):
+            result = generate_ad(product, audience, features,
+                                 discount, tone, platform)
+            st.success("Ad copy generated successfully!")
+            st.subheader("Here are your generated ads:")
+            st.text(result)
+
+            st.download_button(
+                label="Download Your Ads",
+                data=result,
+                file_name="ad_copy.txt",
+                mime="text/plain"
+            )
