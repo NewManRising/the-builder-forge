@@ -60,10 +60,17 @@ https://docs.streamlit.io/develop/api-reference/configuration/st.set_page_config
 
 5) Selectbox (Streamlit Official Docs): https://docs.streamlit.io/develop/api-reference/widgets/st.selectbox
 
+
+
+### Anthropic
+1) Python SDK (Official Docs): https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/python
 ---
 
 Projects appear here as they're built and shipped.
 
+
+### HTML & CSS
+1) CSS Cheatsheet: https://htmlcheatsheet.com/css/
 ---
 
 

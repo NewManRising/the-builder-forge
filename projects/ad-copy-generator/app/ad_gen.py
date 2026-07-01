@@ -1,6 +1,7 @@
 import os
 import anthropic
 import streamlit as st
+from pathlib import Path
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -11,14 +12,23 @@ client = anthropic.Anthropic(api_key=os.getenv("MY_KEY"))
 
 # Page Configuration
 st.set_page_config(page_title="Ad Copy Generator",
-                   page_icon=":writing_hand:", layout="centered")
+                   page_icon=":fire:", layout="centered")
+
+
+def load_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+
+css_path = Path(__file__).parent / "styles.css"
+load_css(css_path)
 
 st.title(":fire: Ad Copy Generator :fire:")
 st.caption("Generate professional ad copy for your product or service using AI!")
 
 
 # Input Form
-st.subheader("Enter your product or service details:", divider=True)
+st.subheader("Enter your product or service details:", divider="gray")
 
 product = st.text_input("Product / Service",
                         placeholder="e.g. Electric bike rental")
