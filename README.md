@@ -47,12 +47,18 @@ Currently on Phase 01 — Python Foundations (Week 1)
 
 4) Defining Functions - https://docs.python.org/3/tutorial/controlflow.html#defining-functions
 
-### LLMs and Langchain
-1) Build an LLM app using Langchain: https://docs.streamlit.io/develop/tutorials/chat-and-llm-apps/llm-quickstart
-
 
 ### Streamlit
 1) The Data Professor's Streamlit Playlist: https://www.youtube.com/playlist?list=PLtqF5YXg7GLkn2FNYA20y4D3DZKotdtmo
+
+2) Page Config (Streamlit Official Docs):
+https://docs.streamlit.io/develop/api-reference/configuration/st.set_page_config
+
+3) Chat and LLM Apps (Streamlit Official Docs): https://docs.streamlit.io/develop/tutorials/chat-and-llm-apps/llm-quickstart
+
+4) Emoji Shortcodes (Streamlit Official Docs): https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/
+
+5) Selectbox (Streamlit Official Docs): https://docs.streamlit.io/develop/api-reference/widgets/st.selectbox
 
 ---
 
